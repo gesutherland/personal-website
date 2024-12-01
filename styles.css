@@ -1,0 +1,77 @@
+.covered-by-your-grace-regular {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ 
+
+:root {
+    --primary-color:#fcdcf2;
+    --secondary-color: #d6b0dd;
+    --accent-color: #c25eac;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Covered by Your Grace'; 
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+    background-color: #fcdcf2;
+    color: var(--text-color);
+}
+
+h1 {
+    color :#c25eac;
+    text-align: center;
+    font-size: 2.5rem; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Adjust the font weight */
+    margin: 0.15rem 0; /* Optional: Adjust the margin */
+}
+
+p {
+    font-size: 1.1rem; /* Adjust the size as needed */
+    font-weight: normal; /* Optional: Adjust the font weight */
+    margin: 0.5rem 0; /* Optional: Adjust the margin */
+}
+
+body {
+    font-family: 'Covered by Your Grace', sans-serif;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ecdbee;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family:"Covered By Your Grace", sans-serif;
+}
+
+.card h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #cc7cdc;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
